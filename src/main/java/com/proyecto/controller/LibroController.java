@@ -14,7 +14,7 @@ import com.proyecto.entity.Libro;
 import com.proyecto.service.LibroService;
 
 @RestController
-@RequestMapping("/api/rest/Libro/")
+@RequestMapping("/api/rest/libro/")
 public class LibroController {
 	
 	@Autowired

@@ -12,7 +12,7 @@ import com.proyecto.entity.TipoLibro;
 import com.proyecto.service.TipoLibroService;
 
 @RestController
-@RequestMapping("/api/rest/TipoLibro/")
+@RequestMapping("/api/rest/tipolibro/")
 public class TipoLibroControler {
 	
 	@Autowired

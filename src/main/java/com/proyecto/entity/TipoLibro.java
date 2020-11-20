@@ -12,13 +12,13 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "TipoLibro")
+@Table(name = "tipolibro")
 public class TipoLibro {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public int idTipoLibro;
-	public String nombre;
-	public String estado;
+	private int idTipoLibro;
+	private String nombre;
+	private String estado;
 
 }
